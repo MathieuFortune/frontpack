@@ -24,6 +24,9 @@ module.exports = {
       test: /\.woff2$/,
       loader: 'file-loader?name=fonts/[name].woff2'
     }, {
+      test: /\.woff$/,
+      loader: 'file-loader?name=fonts/[name].woff'
+    }, {
       test: /\.html$/,
       loader: 'html-loader'
     }
